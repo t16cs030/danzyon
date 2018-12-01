@@ -1,0 +1,1862 @@
+fileFormatVersion: 2
+guid: 320d73a82411f114495dda11eedd6ec8
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TEKI_0
+    21300002: TEKI_1
+    21300004: TEKI_2
+    21300006: TEKI_3
+    21300008: TEKI_4
+    21300010: TEKI_5
+    21300012: TEKI_6
+    21300014: TEKI_7
+    21300016: TEKI_8
+    21300018: TEKI_9
+    21300020: TEKI_10
+    21300022: TEKI_11
+    21300024: TEKI_12
+    21300026: TEKI_13
+    21300028: TEKI_14
+    21300030: TEKI_15
+    21300032: TEKI_16
+    21300034: TEKI_17
+    21300036: TEKI_18
+    21300038: TEKI_19
+    21300040: TEKI_20
+    21300042: TEKI_21
+    21300044: TEKI_22
+    21300046: TEKI_23
+    21300048: TEKI_24
+    21300050: TEKI_25
+    21300052: TEKI_26
+    21300054: TEKI_27
+    21300056: TEKI_28
+    21300058: TEKI_29
+    21300060: TEKI_30
+    21300062: TEKI_31
+    21300064: TEKI_32
+    21300066: TEKI_33
+    21300068: TEKI_34
+    21300070: TEKI_35
+    21300072: TEKI_36
+    21300074: TEKI_37
+    21300076: TEKI_38
+    21300078: TEKI_39
+    21300080: TEKI_40
+    21300082: TEKI_41
+    21300084: TEKI_42
+    21300086: TEKI_43
+    21300088: TEKI_44
+    21300090: TEKI_45
+    21300092: TEKI_46
+    21300094: TEKI_47
+    21300096: TEKI_48
+    21300098: TEKI_49
+    21300100: TEKI_50
+    21300102: TEKI_51
+    21300104: TEKI_52
+    21300106: TEKI_53
+    21300108: TEKI_54
+    21300110: TEKI_55
+    21300112: TEKI_56
+    21300114: TEKI_57
+    21300116: TEKI_58
+    21300118: TEKI_59
+    21300120: TEKI_60
+    21300122: TEKI_61
+    21300124: TEKI_62
+    21300126: TEKI_63
+    21300128: TEKI_64
+    21300130: TEKI_65
+    21300132: TEKI_66
+    21300134: TEKI_67
+    21300136: TEKI_68
+    21300138: TEKI_69
+    21300140: TEKI_70
+    21300142: TEKI_71
+    21300144: TEKI_72
+    21300146: TEKI_73
+    21300148: TEKI_74
+    21300150: TEKI_75
+    21300152: TEKI_76
+    21300154: TEKI_77
+    21300156: TEKI_78
+    21300158: TEKI_79
+    21300160: TEKI_80
+    21300162: TEKI_81
+    21300164: TEKI_82
+    21300166: TEKI_83
+    21300168: TEKI_84
+    21300170: TEKI_85
+    21300172: TEKI_86
+    21300174: TEKI_87
+    21300176: TEKI_88
+    21300178: TEKI_89
+    21300180: TEKI_90
+    21300182: TEKI_91
+    21300184: TEKI_92
+    21300186: TEKI_93
+    21300188: TEKI_94
+    21300190: TEKI_95
+    21300192: TEKI_96
+    21300194: TEKI_97
+    21300196: TEKI_98
+    21300198: TEKI_99
+    21300200: TEKI_100
+    21300202: TEKI_101
+    21300204: TEKI_102
+    21300206: TEKI_103
+    21300208: TEKI_104
+    21300210: TEKI_105
+    21300212: TEKI_106
+    21300214: TEKI_107
+    21300216: TEKI_108
+    21300218: TEKI_109
+    21300220: TEKI_110
+    21300222: TEKI_111
+    21300224: TEKI_112
+    21300226: TEKI_113
+    21300228: TEKI_114
+    21300230: TEKI_115
+    21300232: TEKI_116
+    21300234: TEKI_117
+    21300236: TEKI_118
+    21300238: TEKI_119
+    21300240: TEKI_120
+    21300242: TEKI_121
+    21300244: TEKI_122
+    21300246: TEKI_123
+    21300248: TEKI_124
+    21300250: TEKI_125
+    21300252: TEKI_126
+    21300254: TEKI_127
+    21300256: TEKI_128
+    21300258: TEKI_129
+    21300260: TEKI_130
+    21300262: TEKI_131
+    21300264: TEKI_132
+    21300266: TEKI_133
+    21300268: TEKI_134
+    21300270: TEKI_135
+    21300272: TEKI_136
+    21300274: TEKI_137
+    21300276: TEKI_138
+    21300278: TEKI_139
+    21300280: TEKI_140
+    21300282: TEKI_141
+    21300284: TEKI_142
+    21300286: TEKI_143
+    21300288: TEKI_144
+    21300290: TEKI_145
+    21300292: TEKI_146
+    21300294: TEKI_147
+    21300296: TEKI_148
+    21300298: TEKI_149
+    21300300: TEKI_150
+    21300302: TEKI_151
+    21300304: TEKI_152
+    21300306: TEKI_153
+    21300308: TEKI_154
+    21300310: TEKI_155
+    21300312: TEKI_156
+    21300314: TEKI_157
+    21300316: TEKI_158
+    21300318: TEKI_159
+    21300320: TEKI_160
+    21300322: TEKI_161
+    21300324: TEKI_162
+    21300326: TEKI_163
+    21300328: TEKI_164
+    21300330: TEKI_165
+    21300332: TEKI_166
+    21300334: TEKI_167
+    21300336: TEKI_168
+    21300338: TEKI_169
+    21300340: TEKI_170
+    21300342: TEKI_171
+    21300344: TEKI_172
+    21300346: TEKI_173
+    21300348: TEKI_174
+    21300350: TEKI_175
+    21300352: TEKI_176
+    21300354: TEKI_177
+    21300356: TEKI_178
+    21300358: TEKI_179
+    21300360: TEKI_180
+    21300362: TEKI_181
+    21300364: TEKI_182
+    21300366: TEKI_183
+    21300368: TEKI_184
+    21300370: TEKI_185
+    21300372: TEKI_186
+    21300374: TEKI_187
+    21300376: TEKI_188
+    21300378: TEKI_189
+    21300380: TEKI_190
+    21300382: TEKI_191
+    21300384: TEKI_192
+    21300386: TEKI_193
+    21300388: TEKI_194
+    21300390: TEKI_195
+    21300392: TEKI_196
+    21300394: TEKI_197
+    21300396: TEKI_198
+    21300398: TEKI_199
+    21300400: TEKI_200
+    21300402: TEKI_201
+    21300404: TEKI_202
+    21300406: TEKI_203
+    21300408: TEKI_204
+    21300410: TEKI_205
+    21300412: TEKI_206
+    21300414: TEKI_207
+    21300416: TEKI_208
+    21300418: TEKI_209
+    21300420: TEKI_210
+    21300422: TEKI_211
+    21300424: TEKI_212
+    21300426: TEKI_213
+    21300428: TEKI_214
+    21300430: TEKI_215
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TEKI_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae45d4764991a40acd650a28690495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d25406a34809834691e19c83979814c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3fabec401340e4990497f446ec69b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a44f3b45fade974f96c47910d4fc11f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf78dcd2506f8442bd63d341f17e02b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 202
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d0739ebf209d4e9dff5bb9b10f343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 202
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae63b48919744f4e8aded6261e27519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 202
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f46a5f839f31740bc44f0c1a48ee76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_8
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 202
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3d152b0b3f1914093fd6cb01202a1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76bec00d7d0e04241999170e309686aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_10
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2992b931ff658a46aa62a93104d54a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_11
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 202
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b072e85e0dcaf4b95eb99b89d8f583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_12
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e391948c725ef4880cac1724610737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865f8239183eade439bd1a9d585e0d52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141ec131050993f4a90a8d025931098b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d651e4be0d8144f8b77f44d0acb673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a965c71b3859b41856a1049d02777f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ce7e6bf342324c8e3f93600296868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_18
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdda4dd100b4ed14bb01dd6c5baa929c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_19
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee97d0f1354766a4bb29f7f785af07c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_20
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 173
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d943e9e0517df489b1379f04df9a38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 202
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b2fd9174c244548aeef1615b75b610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4d2008500f3e64baca093a76f77e05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_23
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc80de22f1d50e4baf4d87dd002de75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_24
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5ad4e9310966a49a861824852b0228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9050b23d8fc462c43b18829d6b310267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_26
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517d7ed809f5f0448888ebb90a5c30fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb0275f79bebad429d72abd3c8f0f10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_28
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3059591ec79ae9e4397b9bed548c416d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_29
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5004845a437644999979501a641434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_30
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd77fb2edf9b22e4c9f92c45f17523a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_31
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7d32ef09bfd0f45865e631e5bf80d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_32
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 144
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9990ab8268b07f745a93e7053db1cf7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5f971ab41bf254fb32493d142917e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_34
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 113
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a4df18a09d7534fab9325230dee671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_35
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c973457eae0ed764eb1ecbf61b064d59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_36
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc61b76ad1398a4290c40d03eda06f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_37
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e90138d0218baa4c92236967f2498f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc49223c4c30cc248b5ec355aaf3770c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9479946195599974eb80e071e5a9fa93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_40
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd42531dd2f8f78428b916a7b81d482a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_41
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb30c6c06723654da49d6c25d2b3fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_42
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9430026fd875c44b07180b00c7986a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_43
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 115
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463ca22cd07a33a4581b490716d57750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873cf219ced97234a946852a69443b60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_45
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71798202ca225d94cb274d9eed99dc71
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_46
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42291eb5ffd50d45afff8d67184b54e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_47
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70b9715a1e6a7243896c3ce4c4cca48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_48
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283c8db9a1062284593f6197bd2d3ac7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06a7c7494c1bd94183e365aac7a9a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_50
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacda6410a436be4991691902ce825ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_51
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a09fe159c6f5f4b893ce8b41a4d0ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_52
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fda4b95a0b8584a82e8deb658338fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_53
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d7cf8d99433714eb98d539d00fd9a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_54
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 86
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d3c00ab309145742b650b20d12890c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908f7e7e1e3384442bb0dca73e32e050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_56
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e43e2946efff7449891942aa85368a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_57
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294eb2f8a5ce270499f908197f53d149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_58
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea67321b139c2b40b2b984b1a8fcfe3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23bc397d8aa4944e9cd31ff86fc4720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_60
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb92919ca888a04097d4decdd9d6e04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_61
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c081826bae4f4fb7218f0ac9b1ffb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_62
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cddc91f2001f44d9f783b71ac87f16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_63
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617bc0ac57c6a8f4f89ce7d11b3851e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_64
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bb82be4040ed64ea32e2334fcea40a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_65
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 57
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a393bccf7550203469bc207c46fd5253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52472ac336cb78f4c8e5c555c2551748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_67
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43b677417115364f90b23a35cf5f28b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_68
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeac854102a308e4cb68aabe9418a1bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_69
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd89a5060d7784ba05cb48a1b1e1d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_70
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f23d5a248c219d4699feba0d2ab7b83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aceb46d2c9c9b04c8096f8f0799f0f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_72
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ce61fa7eff70b4c9c62c0da3af1422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_73
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8288709854cc27f48904a3578575aed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_74
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00dcb493690aef448e1c26b61788bc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_75
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63d20ef41186ed45b39910560b8ca0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEKI_76
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 28
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81460e34079e2ec47b4f7649b4c7a0a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b9da9093693e8644485bf43efe3c5bb4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
