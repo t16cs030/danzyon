@@ -3,19 +3,26 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI; // ←※これを忘れずに入れる
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 
 
 public class HpBarCtrl : MonoBehaviour
 {
-
-    Slider _slider;
-  public  float _hp = 1f;
+    int i = 0;
+  public  Image heart5;
+    public Image heart4;
+    public Image heart3;
+    public Image heart2;
+    public Image heart1;
+   
+    public  float _hp = 5f;
     public bool on_damage = false;//damageFlag
     private SpriteRenderer renderer;
-    public Text HpText;
-    private int hp = 100;
+   
+   
 
+    Image[] views;
 
     void OnCollisionStay2D(Collision2D col)
     {
@@ -26,9 +33,11 @@ public class HpBarCtrl : MonoBehaviour
         {
            
             OnDamageEffect();
-            _hp -= 0.1f;
-            hp -= 10;
-
+            _hp -= 1f;
+          
+            Destroy(views[i]);
+            i++;
+           
         }
 
 
@@ -40,8 +49,10 @@ public class HpBarCtrl : MonoBehaviour
         {
 
             OnDamageEffect();
-            _hp -= 0.1f;
-            hp -= 10;
+            _hp -= 1f;
+          
+            Destroy(views[i]);
+            i++;
 
         }
 
@@ -50,7 +61,14 @@ public class HpBarCtrl : MonoBehaviour
     void Start()
     {
         // スライダーを取得する
-        _slider = GameObject.Find("Slider").GetComponent<Slider>();
+        
+        heart1 = GameObject.Find("Heart1").GetComponent<UnityEngine.UI.Image>();
+        heart2 = GameObject.Find("Heart2").GetComponent<UnityEngine.UI.Image>();
+        heart3 = GameObject.Find("Heart3").GetComponent<UnityEngine.UI.Image>();
+        heart4 = GameObject.Find("Heart4").GetComponent<UnityEngine.UI.Image>();
+        heart5 = GameObject.Find("Heart5").GetComponent<UnityEngine.UI.Image>();
+
+        views = new Image[] { heart1, heart2,heart3,heart4,heart5 };
 
 
 
@@ -58,7 +76,7 @@ public class HpBarCtrl : MonoBehaviour
         renderer = gameObject.GetComponent<SpriteRenderer>();
 
 
-        HpText.text = "100/100";
+      
 
 
 
@@ -75,13 +93,12 @@ public class HpBarCtrl : MonoBehaviour
             renderer.color = new Color(1f, 1f, 1f, level);
         }
 
-        // HPゲージに値を設定
-        _slider.value = _hp;
+     
         if (_hp <= 0f)
         {
             ChangeScene();
         }
-        HpText.text = hp.ToString() + "/100";
+      
 
     }
 //　ダメージを受けた際の動き

@@ -96,8 +96,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   tekihantei: {fileID: 0}
-  tekihantei2: {fileID: 0}
-  tekihantei3: {fileID: 0}
   hpbar: {fileID: 0}
 --- !u!212 &212678076895664720
 SpriteRenderer:
