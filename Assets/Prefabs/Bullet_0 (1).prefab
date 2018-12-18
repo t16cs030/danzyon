@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114747010584925748}
   m_Layer: 0
   m_Name: Bullet_0 (1)
-  m_TagString: teki
+  m_TagString: tekitama
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

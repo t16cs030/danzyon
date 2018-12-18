@@ -19,7 +19,7 @@ public class TekiHantei : MonoBehaviour
     {
         count++;
 
-        if (flag == 1&& count>=10)
+        if (flag == 1&& count>=20)
         {
             Instantiate(tekiBullet, transform.position, transform.rotation);
 

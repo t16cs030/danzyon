@@ -7,6 +7,11 @@ TagManager:
   - teki
   - player
   - serf
+  - tama
+  - boss
+  - tekitama
+  - ort
+  - baria
   layers:
   - Default
   - TransparentFX

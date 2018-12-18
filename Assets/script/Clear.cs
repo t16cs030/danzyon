@@ -11,7 +11,7 @@ public class Clear : MonoBehaviour {
 
         //  on damage
 
-        if (Input.GetKey(KeyCode.Return))
+        if (col.gameObject.tag == "player"&&Input.GetKey(KeyCode.Return))
         {
 
             ChangeScene();
@@ -28,7 +28,7 @@ public class Clear : MonoBehaviour {
     }
     void ChangeScene()
     {
-        SceneManager.LoadScene("gameclea");
+       SceneManager.LoadScene("gameclea");
     }
 
 }

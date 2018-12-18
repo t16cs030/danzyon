@@ -29,7 +29,7 @@ public class HpBarCtrl : MonoBehaviour
 
         //  on damage
         
-        if (!on_damage && col.gameObject.tag == "teki")
+        if (!on_damage && (col.gameObject.tag == "teki"||col.gameObject.tag == "tekitama" || col.gameObject.tag == "boss"))
         {
            
             OnDamageEffect();
@@ -45,7 +45,7 @@ public class HpBarCtrl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (!on_damage && col.gameObject.tag == "teki")
+        if (!on_damage && (col.gameObject.tag == "teki" || col.gameObject.tag == "tekitama"))
         {
 
             OnDamageEffect();

@@ -15,15 +15,25 @@ public class Bullet : MonoBehaviour
     public int xx;
     public int yy;
     public float timer = 0.044f;
+    bool TazyuuBousi = false;
     void OnTriggerEnter2D(Collider2D col)
     {
         if (col.gameObject.tag != "player")
         {
-            if(col.gameObject.tag != "serf")
-            Destroy(this.gameObject,timer);
+            if (col.gameObject.tag != "serf" && col.gameObject.tag != "tekitama" && col.gameObject.tag != "baria" && col.gameObject.tag != "ort") {
+                if (TazyuuBousi == false)
+                {
+                    playerr.taman -= 1;
+                }
+              
+                Destroy(this.gameObject, timer);
+                TazyuuBousi = true;
+             
+            }
         }
         if (col.gameObject.tag == "teki")
             Destroy(col.gameObject);
+
     }
 
 
@@ -48,9 +58,8 @@ public class Bullet : MonoBehaviour
     }
     void Update()
     {
-            float dist = Vector2.Distance(this.transform.position, Player.transform.position);
-        if (dist > 4.8f) {
-            Destroy(gameObject);
+     
+        
 }
-    }
+    
 }

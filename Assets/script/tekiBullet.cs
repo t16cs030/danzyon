@@ -36,7 +36,7 @@ public class TekiBullet : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag != "teki"&& col.gameObject.tag != "serf")
+        if (col.gameObject.tag != "tama" && col.gameObject.tag != "teki"&& col.gameObject.tag != "serf")
         {
 
             Destroy(this.gameObject);

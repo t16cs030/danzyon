@@ -5,26 +5,49 @@ using System.Collections;
 public class anime : MonoBehaviour
 {
     // 移動スピード
-    public float speed = 5;
+    public float speed = 4;
   public  int x = 0;
   public  int y = 0;
     public int xx = 0;
     public int yy = 0;
     private Animator Anim;
     public warp warpp;
+    public player playerr;
+    private text textt;
     int count = 0;
+    public bool Camera_Flag = false;
+    public GameObject Player;
+    public hebi hebii;
+    int Hebi_hosuu = 0;
     void Awake()
     {
+        Player = GameObject.Find("Player");
         Anim = GetComponent<Animator>();
-     
-       
+        textt = GetComponent<text>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if (textt.Text_Flag==true)
+        {
+            x = 0; y = 0;
+            Anim.SetFloat("stop", 1f);
+        }
+      else  if (Camera_Flag == true&& hebii.Kougeki == false)
+        {
+            Anim.SetFloat("rotationx", 0f);
+            Anim.SetFloat("rotationy", 1f);
+            transform.Translate(0, Time.deltaTime, 0);
+            Anim.SetFloat("stop", -1f);
+            x = 0; y = 1;
+            xx = 0; yy = 1;
+         
+        }
       
-        if  (Input.GetKey(KeyCode.UpArrow)&&warpp.riset == 1)
+     else   if  (Input.GetKey(KeyCode.UpArrow)&&warpp.riset == 1)
         {
 
            
