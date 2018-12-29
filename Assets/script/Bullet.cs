@@ -58,8 +58,14 @@ public class Bullet : MonoBehaviour
     }
     void Update()
     {
-     
-        
-}
+      
+
+        if (!GetComponent<SpriteRenderer>().isVisible)
+        {
+            Destroy(this.gameObject);
+            playerr.taman -= 1;
+        }
+
+    }
     
 }

@@ -21,7 +21,8 @@ public class player : MonoBehaviour
     GameObject[] tagObjects;
     public int taman=0;
     public hebi hebii;
-   
+    
+
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -54,7 +55,7 @@ public class player : MonoBehaviour
         {if (count == 0)
             {
               
-                if (taman <= 3) {
+                if (taman <= 2) {
                     taman++;
                     xx = animee.xx;
                 yy = animee.yy;

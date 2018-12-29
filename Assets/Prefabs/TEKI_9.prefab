@@ -40,9 +40,10 @@ GameObject:
   - component: {fileID: 4201292521979082}
   - component: {fileID: 61277194418442236}
   - component: {fileID: 114481936974609446}
+  - component: {fileID: 50842931544745888}
   m_Layer: 0
   m_Name: buletto possi
-  m_TagString: Untagged
+  m_TagString: serf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54,7 +55,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1489175491276246}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4516029625639380}
@@ -94,6 +95,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!50 &50842931544745888
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1489175491276246}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!58 &58998408951520516
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -118,7 +139,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.06428802, y: -1.5064678}
@@ -163,6 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7caf63e0a112ff4fbd27d53cd25356f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  count: 0
   tekiBullet: {fileID: 1114730189654428, guid: 139c98f4d6628a640b69c4a21024f0b2, type: 2}
 --- !u!212 &212250597269234852
 SpriteRenderer:

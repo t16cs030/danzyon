@@ -13,6 +13,16 @@ public class hebi : MonoBehaviour {
    public bool Kougeki = false;
     Animator _animator;
     public bool Death_Anime=false;
+    public GameObject Teki1;
+    public GameObject Teki2;
+    GameObject obj1;
+    GameObject obj2;
+    GameObject obj3;
+    GameObject obj4;
+    GameObject obj5;
+    GameObject obj6;
+    public text textt;
+
     void OnTriggerEnter2D(Collider2D col)
     {
         if (!on_damage && col.gameObject.tag == "tama")
@@ -21,8 +31,17 @@ public class hebi : MonoBehaviour {
             OnDamageEffect();
             _hp -= 1f;
 
+            if (_hp == 3)
+            {
+                 obj1 = Instantiate(Teki1, new Vector3(7.9f, 24.37f, 0.0f), Quaternion.identity);
+                obj2 = Instantiate(Teki2, new Vector3(12.25f, 24.37f, 0.0f), Quaternion.identity);
+                 obj3 = Instantiate(Teki1, new Vector3(11.51f, 25f, 0.0f), Quaternion.identity);
+                obj4 = Instantiate(Teki2, new Vector3(7.4f, 26.0f, 0.0f), Quaternion.identity);
+                obj5 = Instantiate(Teki1, new Vector3(9.71f, 22.2f, 0.0f), Quaternion.identity);
+                obj6 = Instantiate(Teki2, new Vector3(10.4f, 21.8f, 0.0f), Quaternion.identity);
           
-           
+            }
+
         }
 
     }
@@ -76,12 +95,14 @@ public class hebi : MonoBehaviour {
             if (_hp <= 0f)
             {
                 this.gameObject.GetComponent<Renderer>().material.color = new Color(0.3f, 0.4f, 0.9f, 0.3f);
-            
-          
-                Invoke("Destroy", 2f);
+
+                Invoke("Destroy", 1.5f);
+                Invoke("Tesita", 0.1f);
+                textt.Text_Flag = true;
                 Death_Anime = true;
-              
+                Invoke("can_work", 1.5f);
             }
+          
         }
     }
 
@@ -108,6 +129,21 @@ public class hebi : MonoBehaviour {
     void Destroy()
     {
         Destroy(this.gameObject);
+        
+       
+    }
+    void Tesita()
+    {
+        Destroy(obj1);
+        Destroy(obj2);
+        Destroy(obj3);
+        Destroy(obj4);
+        Destroy(obj5);
+        Destroy(obj6);
+    }
+    void can_work()
+    {
+        textt.Text_Flag = false;
     }
 }
 

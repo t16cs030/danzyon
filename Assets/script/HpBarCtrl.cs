@@ -19,6 +19,7 @@ public class HpBarCtrl : MonoBehaviour
     public  float _hp = 5f;
     public bool on_damage = false;//damageFlag
     private SpriteRenderer renderer;
+    public hebi hebii;
    
    
 
@@ -26,18 +27,19 @@ public class HpBarCtrl : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D col)
     {
-
+        
         //  on damage
         
         if (!on_damage && (col.gameObject.tag == "teki"||col.gameObject.tag == "tekitama" || col.gameObject.tag == "boss"))
         {
-           
-            OnDamageEffect();
-            _hp -= 1f;
-          
-            Destroy(views[i]);
-            i++;
-           
+            if (hebii.Death_Anime == false)
+            {
+                OnDamageEffect();
+                _hp -= 1f;
+
+                Destroy(views[i]);
+                i++;
+            }
         }
 
 

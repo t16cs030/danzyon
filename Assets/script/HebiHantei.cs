@@ -18,7 +18,8 @@ public class HebiHantei : MonoBehaviour
 
     void Update()
     {
-       
+        count++;
+
         if (flag == 1 && count >= 150&&hebii.Kougeki==true&& hebii.Death_Anime ==false )
         {
             for (int i = 0; i < 3; i++) { 
@@ -36,7 +37,7 @@ public class HebiHantei : MonoBehaviour
         if (col.gameObject.tag == "player")
         {
             flag = 1;
-            count++;
+            count =0;
         }
     }
     void OnTriggerExit2D(Collider2D col)
