@@ -2,13 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class returnStart : MonoBehaviour {
 
+  
 
-	
-	// Update is called once per frame
-	void Update () {
+    void Start()
+    {
+        int resultScore = Score.getScore();
+        this.GetComponent<Text>().text = "Score：" + resultScore.ToString();
+    }
+
+
+    // Update is called once per frame
+    void Update () {
         if (Input.GetKey(KeyCode.Return))
         {
             ChangeScene();
@@ -17,6 +25,7 @@ public class returnStart : MonoBehaviour {
     void ChangeScene()
     {
         SceneManager.LoadScene("start");
+      
     }
 
 }

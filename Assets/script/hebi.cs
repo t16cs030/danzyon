@@ -22,14 +22,19 @@ public class hebi : MonoBehaviour {
     GameObject obj5;
     GameObject obj6;
     public text textt;
+    public Music music;
+    public Music_Hebi musich;
+    public Score score;
+    public bool flag = true;
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (!on_damage && col.gameObject.tag == "tama")
+        if (!on_damage && col.gameObject.tag == "tama"&&Kougeki==true)
         {
 
             OnDamageEffect();
             _hp -= 1f;
+            musich.damage2play();
 
             if (_hp == 3)
             {
@@ -52,7 +57,7 @@ public class hebi : MonoBehaviour {
 
         //ele1->ele2に切り替える
         _animator.SetBool("Kougekii", true);
-
+       
 
     }
 
@@ -66,6 +71,11 @@ public class hebi : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if (Kougeki == true && flag == true)
+        {
+            music.Startboss();
+            flag = false;
+        }
         if (Kougeki == true&&Death_Anime==false)
         {
             changeAnimation();
@@ -94,6 +104,8 @@ public class hebi : MonoBehaviour {
 
             if (_hp <= 0f)
             {
+                music.OnDisable();
+                musich.deathplay();
                 this.gameObject.GetComponent<Renderer>().material.color = new Color(0.3f, 0.4f, 0.9f, 0.3f);
 
                 Invoke("Destroy", 1.5f);
@@ -101,6 +113,7 @@ public class hebi : MonoBehaviour {
                 textt.Text_Flag = true;
                 Death_Anime = true;
                 Invoke("can_work", 1.5f);
+                score.score += 3000;
             }
           
         }

@@ -21,7 +21,12 @@ public class player : MonoBehaviour
     GameObject[] tagObjects;
     public int taman=0;
     public hebi hebii;
-    
+    public Music music;
+
+    void Start()
+    {
+       music.Startplay();
+    }
 
 
     void OnTriggerEnter2D(Collider2D col)
@@ -38,7 +43,7 @@ public class player : MonoBehaviour
         {
            animee. Camera_Flag = true;
             cameran.Camera_Stop_Flag = true;
-
+            music.OnDisable();
 
         }
         else {}
@@ -52,10 +57,11 @@ public class player : MonoBehaviour
         animee = Player.GetComponent<anime>();
 
         if (Input.GetKey(KeyCode.Space) &&textt.Text_Flag==false&& hebii.Death_Anime==false)
-        {if (count == 0)
+        {
+            if (count == 0)
             {
-              
-                if (taman <= 2) {
+               
+                if (taman <= 2 ) {
                     taman++;
                     xx = animee.xx;
                 yy = animee.yy;
@@ -75,6 +81,10 @@ public class player : MonoBehaviour
                 count++;
           }
             else { }
+            if (taman <= 0)
+            {
+                taman = 0;
+            }
         }
         else { count = 0; }
    }

@@ -20,8 +20,10 @@ public class HpBarCtrl : MonoBehaviour
     public bool on_damage = false;//damageFlag
     private SpriteRenderer renderer;
     public hebi hebii;
-   
-   
+    public Music music;
+    public Music_damage musicd;
+
+
 
     Image[] views;
 
@@ -36,6 +38,7 @@ public class HpBarCtrl : MonoBehaviour
             {
                 OnDamageEffect();
                 _hp -= 1f;
+                musicd.damageplay();
 
                 Destroy(views[i]);
                 i++;
@@ -52,7 +55,7 @@ public class HpBarCtrl : MonoBehaviour
 
             OnDamageEffect();
             _hp -= 1f;
-          
+            musicd.damageplay();
             Destroy(views[i]);
             i++;
 
@@ -77,10 +80,7 @@ public class HpBarCtrl : MonoBehaviour
         //点滅処理の為に呼び出しておく
         renderer = gameObject.GetComponent<SpriteRenderer>();
 
-
-      
-
-
+        
 
     }
 
@@ -109,7 +109,7 @@ void OnDamageEffect()
         // ダメージフラグON
         on_damage = true;
 
-    
+      
 
         // コルーチン開始
         StartCoroutine("WaitForIt");
@@ -127,6 +127,7 @@ void OnDamageEffect()
     void ChangeScene()
     {
         SceneManager.LoadScene("gameover");
+        music.Stop();
     }
 
 

@@ -20,6 +20,7 @@ public class warpText : MonoBehaviour
     public GameObject Text;
     public GameObject Waku;
     public text textt;
+    public Music_Clic musicc;
    
     public player playerr;
 
@@ -60,7 +61,8 @@ public class warpText : MonoBehaviour
                         
                 
                     if (currentLine < scenarios.Length && Input.GetKeyDown(KeyCode.Return))
-                    {
+                {
+                    musicc.clickplay();
                     if (warp == 1) { warpp = 1; }
                     if (warp == 2) { warpp = 2; }
                     if (warp == 3) { warpp = 3; }

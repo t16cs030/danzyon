@@ -12,7 +12,7 @@ public class Clear : MonoBehaviour {
     public bool test = false;
     int flag = 0;
     int flagg = 300;
-  
+    public Music music;
     
 
     void OnCollisionEnter2D(Collision2D col)
@@ -21,10 +21,10 @@ public class Clear : MonoBehaviour {
         {
             textt.hime = true;
             flagg = 0;
+            music.endplay();
         }
     }
-
-
+  
 
     // Update is called once per frame
     void Update()
@@ -41,7 +41,9 @@ public class Clear : MonoBehaviour {
     }
     void ChangeScene()
     {
+       music.OnDisable();
        SceneManager.LoadScene("gameclea");
+        
     }
 
 }

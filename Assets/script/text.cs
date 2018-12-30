@@ -23,10 +23,13 @@ public class text : MonoBehaviour
     public bool Text_Flag=false;
     public GameObject Text;
     public GameObject Waku;
+    public GameObject Enter;
     public GameObject Hime_gazou;
     public GameObject Player_gazou;
     public GameObject baria;
     public player playerr;
+    public Music music;
+    public Music_Clic musicc;
     public hebi hebii;
    public  bool Hebi= false;
     public bool hime = false;
@@ -35,6 +38,8 @@ public class text : MonoBehaviour
     public HebiHantei hebihanteii;
     public Clear clearr;
     int i = 0;
+    Vector3 tmp;
+
     // 文字の表示が完了しているかどうか
     public bool IsCompleteDisplayText
     {
@@ -43,8 +48,12 @@ public class text : MonoBehaviour
 
     void Start()
     {
+        StartCoroutine("EnterTrue");
         SetNextLine();
         Text_Flag = true;
+        Enter.SetActive(false);
+        tmp = Enter.transform.position;
+
     }
 
     void Update()
@@ -59,7 +68,13 @@ public class text : MonoBehaviour
             player_gazou = true;
             hime_gazou = false;
         }
-    
+        if (Text_Flag == true && player_gazou == true)
+        {
+            Player_gazou.SetActive(true);
+            Hime_gazou.SetActive(false);
+
+        }
+
 
         if (Text_Flag == true && hime_gazou == true)
         {
@@ -67,13 +82,7 @@ public class text : MonoBehaviour
             Player_gazou.SetActive(false);
 
         }
-      if (Text_Flag == true && player_gazou == true)
-        {
-            Player_gazou.SetActive(true);
-            Hime_gazou.SetActive(false);
-
-        }
-     
+    
 
 
 
@@ -84,7 +93,7 @@ public class text : MonoBehaviour
             Text_Flag = true;
             Text.SetActive(true);
             Waku.SetActive(true);
-            
+            StartCoroutine("EnterTrue");
             Hebi = false;
            
         }
@@ -94,7 +103,7 @@ public class text : MonoBehaviour
             Text_Flag = true;
             Text.SetActive(true);
             Waku.SetActive(true);
-       
+            StartCoroutine("EnterTrue");
             hime = false;
            
         }
@@ -104,6 +113,8 @@ public class text : MonoBehaviour
         {
             if (( currentLine == Start_finish_talk && Input.GetKeyDown(KeyCode.Return))|| (currentLine == Hebi_finish_talk && Input.GetKeyDown(KeyCode.Return)) || (currentLine == Hime_finish_talk && Input.GetKeyDown(KeyCode.Return)))
             {
+               
+                musicc.clickplay();
                 Invoke("No_Seen", 0.5f);
                 //  Invoke("SetNextLine",0.5f);
                 if (Hime_finish_talk == currentLine)
@@ -116,17 +127,22 @@ public class text : MonoBehaviour
             else
             { 
             if (currentLine < scenarios.Length && Input.GetKeyDown(KeyCode.Return))
-            {
-                SetNextLine();
-            }
+                {
+                    musicc.clickplay();
+                    SetNextLine();
+                    StartCoroutine("EnterTrue");
+
+                }
         } }
 
             else
             {
                 // 完了してないなら文字をすべて表示する
                 if (Input.GetKeyDown(KeyCode.Return))
-                {
-                    timeUntilDisplay = 0;
+            {
+                StartCoroutine("EnterTrue");
+                musicc.clickplay();
+                timeUntilDisplay = 0;
                 }
             }
 
@@ -154,15 +170,29 @@ public class text : MonoBehaviour
         Text.SetActive(false);
         Waku.SetActive(false);
         Text_Flag = false;
+       
         if (currentLine == Hebi_finish_talk)
         {
             hebii.Kougeki = true;
             hebihanteii.count=0;
-    Destroy(baria);
+            Destroy(baria);
         }
     }
     void next()
     {
         SetNextLine();
+    }
+    IEnumerator EnterTrue()
+    {
+        
+        // 1秒間処理を止める
+        yield return new WaitForSeconds(2);
+        Enter.SetActive(true);
+        while (!Input.GetKey(KeyCode.Return)) yield return null;
+
+        Enter.SetActive(false);
+
+
+
     }
 }
